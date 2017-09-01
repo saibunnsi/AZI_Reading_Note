@@ -2,7 +2,7 @@
 import time
 from functools import wraps
 
-#使用装饰器来计算函数运行时间：
+#使用装饰器来计算函数运行时间
 def deco_timer(func):
     @wraps(func)
     def func_timer(*args, **kwargs):

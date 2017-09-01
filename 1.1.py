@@ -1,6 +1,6 @@
 # coding:utf-8
 import random
-from time_count import deco_timer
+from function_timer import deco_timer
 
 initial_list = [w for w in range(0,10000000) ]
 sam_image_list = random.sample(initial_list, 30000)
